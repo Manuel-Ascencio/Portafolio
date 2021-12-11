@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="shortcut icon" href="./imagenes/portfolio.png">
+    <title>
+        Portfolio
+    </title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">
+                &lt;JesusManuel/&gt;
+            </div>
+            <ul class="hidden">
+                <li>
+                    <a href="#home">Inicio</a>
+                </li>
+                <li>
+                    <a href="#about_me">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#proyects">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+            <button class="show_menu">
+                <span class="top-line show_menu"></span>
+                <span class="middle-line show_menu"></span>
+                <span class="bottom-line show_menu"></span>
+            </button>
+        </nav>
+        <div class="home">
+            <article class="entry">
+                <div class="presentation">
+                    <p class="random">Hola,</p>
+                    <p class="name">Soy Jesus Manuel</p>
+                </div>
+                <h1>
+                    <span>Desasarrollador web,</span>
+                    <br>
+                    Fron-end
+                    <br>
+                    y Futuro Back-end.
+                </h1>
+                <p class="button">
+                    <a href="#contact">
+                        Contáctame
+                    </a>
+                </p>
+            </article>
+        </div>
+    </header>
+    <section class="description" id="about_me">
+        <div class="about_me">
+            <h2 class="lines">
+                Sobre Mí
+            </h2>
+            <p>
+                Hola, mi nombre es Jesus Manuel Ascencio Perez,
+                Actualmente estudio en el bootcamp de Academlo, pero también he estudiado en plataformas como:
+                <a href="https://www.freecodecamp.org/jesusmanuel" target="_blank">
+                    FreeCodeCamp
+                </a>
+                y
+                <a href="https://www.coursera.org/user/045fdbf1266add41ef08cd27659c36be" target="_blank">
+                    coursera.
+                </a>
+            </p>
+        </div>
+        <div class="cards">
+            <div class="skills">
+                <img src="imagenes/svg/front-end.svg" alt="" width="150px">
+                <h2>Front-end</h2>
+                <p>Las tecnologias frontend que actualmente manejo son HTML, CSS y JS; las librerias y frameworks
+                que aprenderé son: React, React Router y Redux.</p>
+            </div>
+            <div class="skills">
+                <img src="imagenes/svg/back-end.svg" alt="" width="98px">
+                <h2>Back-end</h2>
+                <p>En backend aprenderé Node.js, SQL, Oauth, Python, Django, API's, Algoritmos y Grafos. Para trabajar con proyectos profecionales y adaptables al ambito laboral.</p>
+            </div>
+        </div>
+    </section>
+    <section class="proyects" id="proyects">
+        <h2 class="lines">Proyectos</h2>
+        <div class="proyect">
+            <h3>ToDo List</h3>
+            <img src="./imagenes/todo-list.PNG" alt="" class="img_proyect">
+            <div class="icons">
+                <div class="view">
+                    <button> <a href="https://tdo-list.netlify.app/" target="_blank">Ver proyecto</a></button>
+                </div>
+                <div>
+                <img src="./imagenes/svg/html.svg" alt="" class="proyect_icon">
+                <img src="./imagenes/svg/css.svg" alt="" class="proyect_icon">
+                <img src="./imagenes/js.gif" alt="" class="proyect_icon">
+                </div>
+                <div class="view">
+                    <button> <a href="https://github.com/Manuelipsu/ToDo-List" target="_blank">Ver código</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="center">
+            <h2 class="lines">
+                Contáctame
+            </h2>
+        </div>
+        <div class="data">
+            <div class="formulario">
+                <h3 class="ruta">
+                    Mensajeame!
+                </h3>
+                <form action="https://formsubmit.co/manuelzm383@gmail.com" class="first-section" id="form" method="POST"
+                    target="_blank">
+                    <div>
+                        <label for="nombre">
+                            Nombre
+                        </label>
+                        <input name="nombre" type="text" id="nombre" title="Solo acepta letras"
+                            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                    </div>
+                    <div>
+                        <label for="email">
+                            Correo Electrónico
+                        </label>
+                        <input name="correo" type="email" id="email" title="Email incorrecto"
+                            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                    </div>
+                    <div>
+                        <textarea name="mensaje" cols="50" rows="5" placeholder="Escribe tu mensaje" class="
+                        message" required></textarea>
+                    </div>
+                    <div class="enviar">
+                        <button type="submit" class="final">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="info">
+                <h4>
+                    Mas información
+                </h4>
+                <ul class="more_info">
+                    <li>
+                        <img alt="" src="imagenes/svg/nombre.svg" width="50px">
+                        <p>Jesus Manuel Ascencio Perez</p>
+                    </li>
+                    <li>
+                        <img alt="" src="imagenes/svg/github.svg" width="50px">
+                        <p><a href="https://github.com/Manuelipsu" target="_blank">GitHub</a></p>
+                    </li>
+                    <li>
+                        <img alt="" src="imagenes/svg/linkedin.svg" width="50px">
+                        <p>LinkedIn</p>
+                    </li>
+                    <li>
+                        <img alt="" src="imagenes/svg/email.svg" width="50px">
+                        <p>manuelzm383@gmail.com</p>
+                    </li>
+                </ul>
+                <p class="complement">
+                    Si le intereso ó encajo en el perfil que esta buscando, puede contactarme por el medio a que mas se
+                    acomode y le resulte más facil, Gracias.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Creado Por <span>Jesus Manuel</span> | <span class="copyright">&copy;</span> 2021 Todos los derechos reservados.</p>
+    </footer>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
